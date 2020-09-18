@@ -1,0 +1,7 @@
+word = "supercalifragilisticexpialidocious"
+print(word.index("x"))
+
+pet = "Car & Dog"
+pet.index("o")
+pet.index("Dog")
+pet.index("&")
