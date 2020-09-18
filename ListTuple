@@ -36,3 +36,12 @@ def file_size(file_info):
 print(file_size(('Class Assignment', 'docx', 17875))) # Should print 17.46
 print(file_size(('Notes', 'txt', 496))) # Should print 0.48
 print(file_size(('Program', 'py', 1239))) # Should print 1.21
+
+#iterating over lists and tuples
+animals = ["monkey","lion","tiger","zebra"]
+chars = 0
+for animal in animals:
+	chars += len(animal)
+print("total characters: {}, average: {}".format(chars, chars/len(animals))) 
+
+
