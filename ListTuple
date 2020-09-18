@@ -1,0 +1,22 @@
+#list
+fruits = ["Apple","banana","orange","melon"]
+fruits.append("kiwi")
+fruits.insert(0,"pineapple")
+fruits.insert(25,"peach")----will append in the end
+fruits.remove("melon")
+fruits.pop(3)
+print(fruits)----will remove the one that was popped
+fruits[2]="strawberry"
+print(fruits)----will change the third one into stawberry
+
+#tuple
+def convert_seconds(seconds):
+  hours = seconds//3600
+  minutes = (seconds-hours*3600)//60
+  seconds = seconds - hours*3600 - minutes*60
+  return hours,minutes,seconds
+  
+result = convert_seconds(5000)
+
+type(result)----<class 'tuple'>
+print(result)----1,23,20
