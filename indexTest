@@ -15,3 +15,18 @@ def replace_domain(email,old_domain,new_domain):
     new_email = email.index[:i] + "@" + new_domain
     return new_email
   return email
+
+#string functions
+upper()
+lower()
+strip()
+lstrip()
+rstrip()
+"the number of times e occurs in the message".count("e")-----6
+"forest".endswith("rest")-----True
+"forest".isnumeric()------False
+"12345".isnumeric()------True
+int("12345")+int("54321")------66666
+" ".join(["this","is","joined","by","spaces"])-----'this is joined by spaces'
+"...".join(["this","is","joined","by","triple","dots"])------'this...is...joined...by...triple...dots
+"this is another example".split()-----['this','is','another','example']
