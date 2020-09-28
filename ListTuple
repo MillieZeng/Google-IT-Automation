@@ -44,4 +44,10 @@ for animal in animals:
 	chars += len(animal)
 print("total characters: {}, average: {}".format(chars, chars/len(animals))) 
 
-
+#print name&email in a list
+def full_email(person):
+	result = []
+	for email, name in person:
+		result.append("{} <{}>".format(name, email))
+	return result
+print(full_email([("milliez0606@gmail.com","Millie"),("bruceh@gmail.com","Bruce")]))
